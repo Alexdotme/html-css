@@ -1,0 +1,82 @@
+<!--PAGINATION-->
+<h1>pagination</h1>
+
+<style>
+  .pagination {
+   
+    display: inline-block;
+  }
+
+ .pagination a {
+color: black;
+
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 10px;
+transition: background-color 1s;
+}
+  .pagination a.active {
+    background-color:  #2094c2;
+    color :white ;
+  }
+ 
+  .pagination a:hover:not(.active) {
+  background-color: #ddd;
+  }
+ 
+</style>
+
+<div class="pagination">
+  <style>
+.back {
+  background-color:#2094c2;
+  color:white;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor:pointer;
+  border-radius: 10px; 
+transition: background-color 0.3s;
+}
+.back:hover {
+background-color:rgb(3, 3, 1);
+color:#2094c2;
+
+}
+
+.back:active {
+  opacity: 0.6;
+ }
+
+.next{
+  background-color:#2094c2;
+  color:white;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor:pointer;
+  border-radius: 10px; 
+  transition: background-color 0.3s;
+}
+.next:hover {
+background-color:rgb(3, 3, 1);
+color:#2094c2;
+}
+ .next:active {
+  opacity: 0.6;
+ }
+
+  </style>
+  <button class="back">Back</button>
+  <a href="#">1</a>
+  <a class="active" href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+ <button class="next">Next</button> 
+</div>
