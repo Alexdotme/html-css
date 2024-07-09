@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>twitter design</title>
+    <style>
+      p {
+        font-family: arial;
+        margin: 0;
+      }
+.container {
+  width: 500px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+ padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+.tweet {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+ width: 60px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.name-user {
+  display: flex;
+  
+}
+.name {
+  font-weight: bold;
+}
+.user-name {
+  margin-left: 5px;
+  color: rgb(102, 98, 98);
+}
+.tweet-text {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.song-link {
+  margin-top: 12px;
+  margin-left: 80px;
+  width: 300px;
+  height: 100px;
+  border-radius: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+ 
+  
+}
+.song-pic {
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 15px;
+  
+ 
+}
+.song-info {
+  margin-top: 10px;
+}
+.website-link {
+  color: grey;
+}
+.link-info {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+    </style>
+
+  </head>
+
+  <body style=" 
+  margin: 40px;
+  margin-bottom: 1000px;">
+<!--container-->
+    <div class="container">
+      
+      <!--pic-and tweet -->
+    <div class="tweet">
+      <!--pic-->
+      <div class="pic-grid">
+<img class="profile-pic" src="james.png">
+      </div>
+    <!--the tweet (text) next to the pic-->
+      <div>
+      <!--first line-->
+        <div class="name-user">
+      <p class="name">James Arthur</p>
+      <p class="user-name">@jamesArhur12</p>
+        </div>
+<p class="tweet-text">What's up everyone i just realesed my new song called sinner it's out rn!</p>
+      </div>
+      
+    </div>  
+    
+    <!--link of the song -->
+    <div class="song-link">
+  <!--grey square-->    
+<div>
+<a href="https://open.spotify.com/track/6nExxTqLbu86aatoDqCafi?si=46d8535f5b3f4086" target="_blank">
+  <img class="song-pic" src="sinner-song.jpg">
+</a>
+ 
+</div>
+<!--youtube.com and name of the vid-->
+<div class="song-info">
+  <p class="website-link">spotify.com</p>
+  <p class="link-info">Sinner - James Arhur</p>
+</div>
+
+    </div>
+
+
+
+
+
+
+
+
+</div>
+<!--end of the container-->
+  </body>
+
+</html>
