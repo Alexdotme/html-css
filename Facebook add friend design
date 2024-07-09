@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>facebook</title>
+    <style>
+      p {
+        font-family: arial;
+        margin: 0px;
+       
+      }
+      .grid {
+      margin-top: 100px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 20px;
+      }
+  
+      .contain {
+        display: grid;
+        width: 100%;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      }
+      
+      .profile-pic {
+         display: grid;
+        width: 100%;
+       
+        }
+        .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  
+        }
+  
+        .info {
+          margin-left: 10px;
+         margin-bottom: 10px;
+  
+        }
+      
+       
+        .mutual-pic {
+          display: inline-block;
+          width: 40px;
+          border-radius: 50px;
+          vertical-align: middle;
+        }
+  .mutual {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .add {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #2D58B1; 
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+  
+  
+  }
+  .add:hover {
+    opacity: 0.7;
+  }
+    </style>
+
+  </head>
+  
+  <body>
+    <!--grid-->
+    <div class="grid">
+<!--conieneer-->
+<div class="contain">
+  <div>
+    <img class="profile-pic" src="lewis.jpg">
+  </div>
+<div class="info">
+<p class="name">Lewis Capaldi</p>
+<div>
+<img class="mutual-pic" src="james.png">
+<p class="mutual">2 mutuals</p>
+</div>
+
+<!--button-->
+<div>
+<button class="add">Add Friend</button>
+</div>
+
+</div>
+<!--info div end-->
+</div>
+
+
+<!--conieneer-->
+<div class="contain">
+  <div>
+    <img class="profile-pic" src="finneas.jpg">
+  </div>
+<div class="info">
+<p class="name">FINNEAS</p>
+<div>
+<img class="mutual-pic" src="frog.jpg">
+<p class="mutual">1 mutuals</p>
+</div>
+
+<!--button-->
+<div>
+<button class="add">Add Friend</button>
+</div>
+
+</div>
+<!--info div end-->
+</div>
+
+
+
+<!--conieneer-->
+<div class="contain">
+  <div>
+    <img class="profile-pic" src="james.png">
+  </div>
+<div class="info">
+<p class="name">James Arthur</p>
+<div>
+<img class="mutual-pic" src="lewis.jpg">
+<p class="mutual">7 mutuals</p>
+</div>
+
+<!--button-->
+<div>
+<button class="add">Add Friend</button>
+</div>
+
+</div>
+<!--info div end-->
+</div>
+
+<!--conieneer-->
+<div class="contain">
+  <div>
+    <img class="profile-pic" src="lewis.jpg">
+  </div>
+<div class="info">
+<p class="name">Lewis Capaldi</p>
+<div>
+<img class="mutual-pic" src="james.png">
+<p class="mutual">2 mutuals</p>
+</div>
+
+<!--button-->
+<div>
+<button class="add">Add Friend</button>
+</div>
+
+</div>
+<!--info div end-->
+</div>
+
+
+<!--conieneer-->
+<div class="contain">
+  <div>
+    <img class="profile-pic" src="finneas.jpg">
+  </div>
+<div class="info">
+<p class="name">FINNEAS</p>
+<div>
+<img class="mutual-pic" src="frog.jpg">
+<p class="mutual">1 mutuals</p>
+</div>
+
+<!--button-->
+<div>
+<button class="add">Add Friend</button>
+</div>
+
+</div>
+<!--info div end-->
+</div>
+
+
+
+<!--conieneer-->
+<div class="contain">
+  <div>
+    <img class="profile-pic" src="james.png">
+  </div>
+<div class="info">
+<p class="name">James Arthur</p>
+<div>
+<img class="mutual-pic" src="lewis.jpg">
+<p class="mutual">7 mutuals</p>
+</div>
+
+<!--button-->
+<div>
+<button class="add">Add Friend</button>
+</div>
+
+</div>
+<!--info div end-->
+</div>
+
+
+
+
+
+<!--end div of grid-->
+    </div>
+  
+
+   
+
+  </body>
+
+</html>
+ 
