@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>ios gmail</title>
+        <style>
+            div {
+                font-family: arial;
+            }
+           .email-card {
+            padding: 10px;
+            width: 400px;
+                height: 100%;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+                border-radius: 5px;
+           }
+           .header {
+            font-size: 13px;
+            height: 35px;
+            color: rgb(95, 91, 91);
+           }
+            .container {
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 20px;
+                
+            }
+            .user-pic {
+                width: 50px;
+                border-radius: 25px;
+                margin-right: 10px;
+            }
+            .flex-name-time {
+                display: flex;
+                justify-content: space-between;
+                width: 340px;
+            }
+            .time {
+                color: rgb(95, 91, 91);
+                font-size: 13px;
+            }
+            .user-name {
+                font-size: 17px;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+            .blue-dot {
+                height: 10px;
+               
+            }
+            .event { 
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 2px;
+            }
+            .mail-info {
+                font-size: 15px;
+                color: rgb(95, 91, 91);
+            }
+            
+        </style>
+    </head>
+    
+    
+    <body>
+        <div class="email-card">
+              <!--header-->
+        <div class="header">
+            ALL INBOXES
+                    </div>
+                   <!--container-->
+                    <div class="container">
+                        <div>
+                            <img class="user-pic" src="lewis.jpg">
+                        </div>
+            
+                        <div>
+                            <div class="flex-name-time">
+                             
+                                <div class="user-name">Lewis Capaldi</div>
+                                 <div class="time">7:00 AM</div>
+            
+                            </div>
+                  <div class="event">New Song Realese</div>
+                  <div class="mail-info">Hey lewis just realesed a new...</div>
+                        </div>
+                    <!--end container-->
+                    </div>
+
+                      <!--container-->
+                    <div class="container">
+                        <div>
+                            <img class="user-pic" src="james.png">
+                        </div>
+            
+                        <div>
+                            <div class="flex-name-time">
+                             
+                                <div class="user-name">James Arthur</div>
+                                 <div class="time">7:00 AM</div>
+            
+                            </div>
+                  <div class="event">New Song Realese</div>
+                  <div class="mail-info">Hey lewis just realesed a new...</div>
+                        </div>
+                    <!--end container-->
+                    </div>
+
+                     <!--container-->
+                     <div class="container">
+                        <div>
+                            <img class="user-pic" src="finneas.jpg">
+                        </div>
+            
+                        <div>
+                            <div class="flex-name-time">
+                             
+                                <div class="user-name">FAINNEAS</div>
+                                 <div class="time">7:00 AM</div>
+            
+                            </div>
+                  <div class="event">New Song Realese</div>
+                  <div class="mail-info">Hey lewis just realesed a new...</div>
+                        </div>
+                    <!--end container-->
+                    </div>
+                    
+        </div>
+      
+    
+    </body>
+</html>
